@@ -362,7 +362,7 @@ li {
     gap: 0;
   }
   .acc {
-    grid-template-columns: repeat(2, 49%);
+    grid-template-columns: repeat(2, 48%);
     gap: 15px;
     padding: 60px 2% 0;
   }
@@ -375,7 +375,7 @@ li {
     flex-direction: column;
   }
   .feature_list {
-    grid-template-columns: repeat(2, 49%);
+    grid-template-columns: repeat(2, 48%);
     padding: 0 2%;
     gap: 14px;
   }
@@ -434,6 +434,8 @@ li {
   }
   .f_text {
     order: 2;
+    width: 100%;
+    text-align: center;
   }
   .f_social {
     margin-bottom: 40px;
