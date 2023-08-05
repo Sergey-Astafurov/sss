@@ -386,6 +386,19 @@ li {
   .ss {
     margin-top: 45px;
   }
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .f_text {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .f_social {
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 376px) {
   .top_text h1 {
@@ -427,17 +440,5 @@ li {
   }
   .s_sub {
     font-size: 14px;
-  }
-  .footer {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .f_text {
-    order: 2;
-    width: 100%;
-    text-align: center;
-  }
-  .f_social {
-    margin-bottom: 40px;
   }
 }
