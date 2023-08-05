@@ -441,4 +441,27 @@ li {
   .s_sub {
     font-size: 14px;
   }
+  .shop,
+  .user {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+  .nav_right {
+    max-width: 30px;
+    flex-direction: column;
+  }
+  .s_form {
+    max-width: 100%;
+  }
+  .s_box {
+    max-width: 100%;
+    padding: 0 2%;
+  }
+  #email {
+    padding: 4%;
+  }
+  #btn {
+    padding: 4%;
+  }
 }
